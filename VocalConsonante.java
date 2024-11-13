@@ -1,8 +1,8 @@
 public class VocalConsonante {
     public static void main(String[] args) {
-        char c = args[0].charAt(0);
+        char ch = args[0].charAt(0);
 
-        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' )
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
             System.out.println(c + " es una vocal");
         else 
             System.out.println(c + " es una consonante");
