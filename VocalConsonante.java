@@ -1,10 +1,10 @@
 public class VocalConsonante {
     public static void main(String[] args) {
-        char ch = args[0].charAt(0);
+        char c = args[0].charAt(0);
 
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
-            System.out.println(ch + " es una vocal.");
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' )
+            System.out.println(c + " es una vocal");
         else 
-            System.out.println(ch + " es una consonante.");
+            System.out.println(c + " es una consonante");
     }
 }
